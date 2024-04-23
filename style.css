@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #a89d8a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+}
+
+.icono_abu {
+  width: 100px;
+  height: 100px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #d3cabb;
+  width: 100%;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20%;
+}
+
+.navbar-nav a {
+  color: #c53800;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.carousel-inner {
+  max-height: 50vh;
+}
+
+.carousel-item img {
+  min-height: 50vh;
+  max-height: 50vh;
+  object-fit: cover;
+}
+
+.tarjetas .card {
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+.tarjetas .card img {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.img-p-ventas {
+  min-height: 380px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.info-p-venta .card-title {
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+}
+
+.info-p-venta .card-text {
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
+
+.horarios {
+  background-color: #d3cabb;
+  color: #c53800;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.list-group-item-custom {
+  background-color: #d3cabb; /* Replace with your desired color code */
+}
+
+footer {
+  background-color: #a89d8a;
+}
+
+.footer a {
+  color: #fff; /* White color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.footer a:hover {
+  color: #ddd; /* Light gray color for links on hover */
+}
+
+.list-group-item-custom2 {
+  background-color: #a89d8a;
+  color: #fff;
+}
+
+.list-group-item-custom2 a {
+  color: #fff;
+  text-decoration: none;
+}
