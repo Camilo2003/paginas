@@ -115,3 +115,15 @@ footer {
   color: #fff;
   text-decoration: none;
 }
+
+.card_custom_pr {
+  background-color: #d3cabb;
+  color: #c53800;
+  width: 18rem;
+}
+
+.card_custom_pr img {
+  min-height: 200px;
+  max-height: 200px;
+  object-fit: cover;
+}
